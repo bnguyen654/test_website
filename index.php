@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-<?php include 'header.php' ?>
 <?php include 'config/config.php' ?>
 
 <html>
@@ -9,9 +8,11 @@
 <link href="styles/main.css" rel="stylesheet">
 </head>
 
-<body bgcolor="#FF9933">
+<body>
 
 	<div id="content-wrapper">
+    <?php include 'header.php' ?>
+    
     	<h1>Greetings</h1>
     </div>
 
