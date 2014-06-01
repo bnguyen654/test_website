@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<?php include header.php ?>
+<?php include 'header.php' ?>
+<?php include 'config/config.php' ?>
 
 <html>
 <head>
@@ -17,4 +18,4 @@
 </body>
 </html>
 
-<?php include footer.php?>
+<?php include 'footer.php' ?>

@@ -4,8 +4,8 @@
 <?php
 
 //db
-$db_name = "";
-$db_user = "";
-$db_pass = "";
+$db_name = "phantastyc";
+$db_login_user = "login_handler";
+$db_login_pass = "akslogins12!12";
 
 ?>
