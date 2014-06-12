@@ -2,22 +2,14 @@
 
 <!DOCTYPE html>
 
-<script>
-
-function highlightUser(){
-	$("#user").css('border', '1px solid red');
-};
-
-</script>
-
 <?php
-	if(isset($_POST['user'])){
-		$user = $_POST['user'];
-		echo "Your username is $user";
-	} else {
-			echo "Lol";
-			echo("<script type=\"text/javascript\">highlightUser();</script>");
-	}
+	$user = $_POST['user'];
+	$pass = crypt($_POST['pass'],"phantastyc");
+	
+	if(isset($user)&& isset($password))
+		if loginCheck($user, $pass)
+			//do something
+		
 ?>
 
 <form method="post">
